@@ -1,0 +1,58 @@
+.navbar-light .navbar-brand {
+    background-color: #24cac5;
+    font-weight: bold;
+    font-family: 'Radley', serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+}
+
+body {
+    /* Photo by Andrea leopardi on Unsplash */
+    background-image: url("assets/Images/hex-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+footer {
+    align-content: bottom;
+    background-color: gray;
+}
+
+.navbar>.container-fluid>button.navbar-toggler{
+    justify-content: flex-end;
+}
+
+.container-fluid {
+    margin: 0 3%;
+}
+
+div#AboutMe.container {
+    color: #24cac5;
+    background-color: white;
+    margin: 0;
+    margin-top: 10%;
+    margin-left: 5%;
+    max-width: 65%;
+}
+#AboutMe p {
+    color: black;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 10px;
+    font-family: 'Radley', serif;
+    vertical-align: center;
+}
+
+hr {
+    margin: 1 0 10px 0;
+}
+
+.img-thumbnail {
+    float: left;
+    margin-right: 15px;
+}
