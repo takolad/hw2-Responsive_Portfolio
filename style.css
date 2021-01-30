@@ -1,10 +1,16 @@
-html {
-    /* height: 100%;
-    padding: 0;
-    margin: 0 auto; */
-    max-height: 1080px;
-    max-width: 1920px;
+
+/* Sets background image and sets up flexbox*/
+body {
+    background-image: url("assets/Images/hex-bg.jpg"); /* Photo by Andrea leopardi on Unsplash */
+    background-position: 60%;
+    background-repeat: no-repeat;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+
 
 /* 
     NavBar 
@@ -24,49 +30,43 @@ html {
     justify-content: flex-end;
 }
 
-body {
-    /* Photo by Andrea leopardi on Unsplash */
-    background-image: url("assets/Images/hex-bg.jpg");
-    background-position: auto;
-    background-repeat: no-repeat;
-    background-color: black;
-
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-/* Margin for Navbar container */
+/* Adds horizontal margin and removes padding on navbar container */
 .container-fluid {
     margin: 0 3%;
+    padding: 0;
 }
+
+/* 
+    AboutMe 
+            */
 
 div#AboutMe.container {
     color: #24cac5;
     background-color: white;
-    /* margin-top: 8vh; */
-    /* padding: 0 8%; */
-    padding: 0;
+    margin: 6% 2%;
+    padding: 3%;
 }
 
+/* Text color for AboutMe paragraph text */
 #AboutMe p {
     color: black;
 }
 
-div#AboutMe.container {
-    margin: 10% 2%;
-    padding: 5%;
+/* 
+    Footer 
+            */
+
+footer {
+    margin-top: auto;
+    border-top: solid 5px cyan;
+    align-self: bottom;
+    background-color: gray;
 }
 
-/* div.col {
-    padding: 0 8%;
-} */
-
 h1 {
+    font-size: calc(1.375rem + 4vw);
     margin: 0;
-    margin-top: 10px;
     font-family: 'Radley', serif;
-    /* vertical-align: center; */
 }
 
 .img-thumbnail {
@@ -74,14 +74,21 @@ h1 {
     margin-right: 15px;
 }
 
-footer {
-    margin-top: auto;
-    border-top: solid 5px cyan;
-    align-self: bottom;
-    background-color: gray;
-    /* display: flex; */
-}
+/* 
+    MEDIA QUERIES 
+                  */
 
-.col-12 {
-    padding: 0;
+
+/* Extra Small Screens */
+@media only screen and (max-width: 576px) {
+
+    /* Removes side margins around AboutMe container 
+        as well as slightly increases vertical margins */
+    div#AboutMe.container {
+        margin: 10% 0;
+    }
+    /* Removes padding for AboutMe column */
+    #Col-AboutMe {
+        padding: 0;
+    }
 }
