@@ -3,7 +3,7 @@
 body {
     background-image: url("assets/Images/hex-bg.jpg"); /* Photo by Andrea leopardi on Unsplash */
     background-position: 60%;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-color: black;
 
     display: flex;
@@ -90,7 +90,7 @@ h1 {
     background: white;
     color: #24cac5;
     min-width: 380px;
-    margin-left: 0;
+    /* margin-left: 0; */
 }
 
 #PortContainer.container-fluid {
@@ -113,9 +113,30 @@ img.portImg {
     display: block;
 }
 
+
+/*******************
+    Contact Page
+********************/
+
+#contactContainer {
+    background: white;
+    color: #24cac5;
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+
+
 /* 
     MEDIA QUERIES 
                   */
+
+
+
+@media only screen and (min-width: 507px) and (max-width: 850px) {
+    #PortContainer {
+        max-width: 87%;
+    }
+}
 
 
 /* Extra Small Screens */

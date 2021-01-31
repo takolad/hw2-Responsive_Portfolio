@@ -4,9 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- External CSS stylesheet -->
+    <link rel="stylesheet" href="test_style.css">
+
+    <!-- Radley Font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Radley&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            /* display: flex;
+            height: 100%;
+            flex-direction: column; */
+        }
+
+    </style>
+
 </head>
 <body>
-    <h1>Contact Page</h1>
-    <p>Stuff will go here eventually!</p>
+
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Branding -->
+      <a class="navbar-brand" href="#">John Hinojosa</a>
+      <!-- Button for small viewport -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-sm">
+      <div class="row">
+          <div class="col">
+            <h1>Contact</h1>
+            <hr>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col">
+            <form action="#" class="was-validated">
+                <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
+                <div class="invalid-feedback">Please fill out your name.</div>
+                </div>
+                <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
+                <div class="invalid-feedback">Please enter an email address.</div>
+                </div>
+                <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" rows="3" id="message" required></textarea>
+                <div class="invalid-feedback">Please fill in a message.</div>
+                </label>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+      </div>
+  </div>
+
+  <footer class="footer py-3 mt-auto fixed-bottom text-center bg-dark">
+    <div class="container">
+      <span class="text-muted">&copy; Copyright 2021 John Hinojosa</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
