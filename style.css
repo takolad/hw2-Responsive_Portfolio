@@ -63,6 +63,12 @@ footer {
     background-color: gray;
 }
 
+footer>container>p {
+    margin: 0;
+}
+
+/* Miscellaneous */
+
 h1 {
     font-size: calc(1.375rem + 4vw);
     margin: 0;
@@ -72,6 +78,39 @@ h1 {
 .img-thumbnail {
     float: left;
     margin-right: 15px;
+}
+
+/***************
+
+    Portfolio   
+
+***************/
+
+#PortContainer {
+    background: white;
+    color: #24cac5;
+    min-width: 380px;
+    margin-left: 0;
+}
+
+#PortContainer.container-fluid {
+    margin: 6% 2%;
+    padding: 2%;
+    width: 75%;
+}
+
+img.portImg {
+    max-width: 200%;
+    height: auto;
+    display: block;
+    margin: 2rem;
+    float: left;
+    justify-content:space-between;
+    
+}
+
+#picColumns {
+    display: block;
 }
 
 /* 
@@ -90,5 +129,11 @@ h1 {
     /* Removes padding for AboutMe column */
     #Col-AboutMe {
         padding: 0;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    img.portImg {
+        margin: 1rem auto;
     }
 }

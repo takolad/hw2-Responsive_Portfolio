@@ -4,9 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- External CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Radley Font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Radley&display=swap" rel="stylesheet">
+
+    <style>
+        * { 
+            box-sizing: border-box;
+        }
+
+        .row {
+            flex-wrap: wrap;
+        }
+
+        .column {
+            flex: 25%;
+            max-width: 25%;
+        }
+    </style>
+
 </head>
 <body>
-    <h1>Portfolio Stuff</h1>
-    <p>Content coming "soon"!</p>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- Branding -->
+            <a class="navbar-brand" href="#">John Hinojosa</a>
+            <!-- Button for small viewport -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-md mt-5" id="PortContainer">
+        <div class="row">
+            <h1>Portfolio</h1>
+            <hr>
+        </div>
+        <div class="row" id="picColumns">
+            <div class="col-6 col-md-12 flex-column">
+                <img src="http://placehold.it/350x350" alt="Placeholder" class="portImg">
+
+                <img src="http://placehold.it/350x350" alt="Placeholder" class="portImg">
+
+                <img src="http://placehold.it/350x350" alt="Placeholder" class="portImg">
+            </div>
+            <div class="col-6 col-md-12 flex-column">
+                <img src="http://placehold.it/350x350" alt="Placeholder" class="portImg">
+
+                <img src="http://placehold.it/350x350" alt="Placeholder" class="portImg">
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer mt-auto py-3">
+        <container>
+          <p class="text-center">&copy; Copyright 2021 John Hinojosa</p>
+        </container>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
