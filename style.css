@@ -66,6 +66,12 @@ div#aboutMeRow.row {
     padding: 0;
 }
 
+/* Hover effect for anchor tagged thumbnails in portfolio */
+a .img-thumbnail:hover {
+    background-color: #24cac5;
+    opacity: 0.5;
+}
+
 /* Button on contact page */
 .btn {
     color: white;
