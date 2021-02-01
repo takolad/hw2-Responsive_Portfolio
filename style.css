@@ -2,12 +2,7 @@
 /* Sets background image and sets up flexbox*/
 body {
     background-image: url("Assets/Images/hex-bg.jpg"); /* Photo by Andrea leopardi on Unsplash */
-    /* background-position: 60%; */
-    /* background-repeat: repeat-y; */
     background-color: black;
-    /* max-width: 100%;
-    height: auto; */
-
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -18,9 +13,10 @@ body {
     NavBar 
 */
 
-/* Remove unnecessary padding */
-nav.navbar.navbar-expand-md.navbar-light.bg-light {
+/* Remove padding, prevent wrap on _extremely_ small screen */
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     padding: 0;
+    min-width: 301px;
 }
 
 .navbar-light .navbar-brand {
@@ -34,16 +30,12 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light {
 }
 
 
-/* Adds horizontal margin and removes padding on navbar container */
+/* Adds horizontal margin on navbar container */
 .container-fluid {
     margin: 0 2rem;
 }
 
-
-/*******************
-    Contact Page
-********************/
-
+/* Where the content lives! */
 .container-sm {
     background: white;
     max-width: 60%;
@@ -56,10 +48,33 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light {
     color: #24cac5;
 }
 
+/* 
+    About page fine tunings 
+                            */
+
+#aboutImg {
+    float: left;
+    margin-right: 1.5rem;
+    max-width: 150px;
+}
+
+div#aboutMeRow.row {
+    padding: 0;
+}
+
+#aboutMeCol {
+    padding: 0;
+}
+
 /* Button on contact page */
 .btn {
     color: white;
     background-color: #24cac5;
+}
+
+/* Allows the footer to stick */
+.fixed-bottom {
+    position: sticky;
 }
 
 
@@ -88,7 +103,7 @@ nav.navbar.navbar-expand-md.navbar-light.bg-light {
 @media only screen and (max-width: 414px) {
     .container-sm {
         max-width: 100%;
-        margin: 2rem 0;
+        margin: 4rem 0;
         padding: 1rem;
     }
 }
