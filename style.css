@@ -72,6 +72,12 @@ a .img-thumbnail:hover {
     opacity: 0.5;
 }
 
+/* Hover effect for anchor tagged image in index */
+a #aboutImg:hover {
+    border: solid 4px #24cac5;
+    opacity: 0.8;
+}
+
 /* Button on contact page */
 .btn {
     color: white;
