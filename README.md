@@ -1,11 +1,12 @@
 # hw2-Responsive_Portfolio
 
 ## Description
-    Personal *responsive* portfolio, including an **About** and **Contact** page making use of bootstrap css.
+    Personal *responsive* portfolio, including an **About** and **Contact** page  
+    making use of bootstrap css.
 
 ## Site Screenshots
-   ![About Page screenshot](Assets/Images/previewAbout.png)
-   ![Portfolio Page screenshot](Assets/Images/previewPortfolio.png)
+   ![About Page screenshot](Assets/Images/previewAbout.png)  
+   ![Portfolio Page screenshot](Assets/Images/previewPortfolio.png)  
    ![Contact Page screenshot](Assets/Images/previewContact.png)
 
 ## Site Link
