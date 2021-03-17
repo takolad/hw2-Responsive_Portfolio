@@ -1,4 +1,4 @@
-# hw2-Responsive_Portfolio
+# responsive_portfolio
 
 ## Description
     Personal *responsive* portfolio, including an **About** and **Contact** page  
