@@ -5,9 +5,9 @@
     making use of bootstrap css.
 
 ## Site Screenshots
-   ![About Page screenshot](Assets/Images/previewAbout.png)  
-   ![Portfolio Page screenshot](Assets/Images/previewPortfolio.png)  
-   ![Contact Page screenshot](Assets/Images/previewContact.png)
+   ![About Page screenshot](assets/images/previewAbout.png)  
+   ![Portfolio Page screenshot](assets/images/previewPortfolio.png)  
+   ![Contact Page screenshot](assets/images/previewContact.png)
 
 ## Site Link
-   Link to [John's Portfolio Site](https://takolad.github.io/hw2-Responsive_Portfolio/).
+   Link to [John's Portfolio Site](https://takolad.github.io/responsive_portfolio/).
