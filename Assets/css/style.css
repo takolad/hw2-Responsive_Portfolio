@@ -1,8 +1,8 @@
 
 /* Sets background image and sets up flexbox*/
 body {
-    background-image: url("Assets/Images/hex-bg.jpg"); /* Photo by Andrea leopardi on Unsplash */
-    background-color: black;
+    background-image: url('/assets/images/hex-bg.jpg'); /* Photo by Andrea leopardi on Unsplash */
+    background-color: hsl(0, 0%, 9%);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -70,6 +70,15 @@ div#aboutMeRow.row {
 a .img-thumbnail:hover {
     background-color: #24cac5;
     opacity: 0.5;
+}
+
+#portImg > div {
+    margin-bottom: 1rem;
+}
+
+#portImg > div > p {
+    margin: 0;
+    text-align: center;
 }
 
 /* Hover effect for anchor tagged image in index */
