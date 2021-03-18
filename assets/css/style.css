@@ -26,6 +26,8 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     text-align: center;
     font-size: 25px;
     margin: 0;
+    padding-left: .75rem;
+    padding-right: .75rem;
 }
 
 
