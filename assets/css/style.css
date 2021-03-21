@@ -1,6 +1,6 @@
 /* Sets background image and sets up flexbox*/
 body {
-    background-image: url('https://raw.githubusercontent.com/takolad/responsive-portfolio/main/assets/images/hex-bg.jpg'); /* Photo by Andrea leopardi on Unsplash */
+    background-image: url(../images/hex-bg.jpg); /* Photo by Andrea leopardi on Unsplash */
     background-color: hsl(0, 0%, 9%);
     display: flex;
     flex-direction: column;
