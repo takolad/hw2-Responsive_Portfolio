@@ -10,4 +10,4 @@
    ![Contact Page screenshot](assets/images/previewContact.png)
 
 ## Site Link
-   Link to [John's Portfolio Site](https://takolad.github.io/responsive_portfolio/).
+   Link to [John's Portfolio Site](https://takolad.github.io/responsive-portfolio/).
