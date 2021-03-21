@@ -1,4 +1,4 @@
-# responsive_portfolio
+# responsive-portfolio
 
 ## Description
     Personal *responsive* portfolio, including an **About** and **Contact** page  
