@@ -12,15 +12,12 @@ body {
     NavBar 
 */
 
-/* Remove padding, prevent wrap on _extremely_ small screen */
-nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-    padding: 0;
-    min-width: 301px;
+/* Prevent wrapping */
+.nowrap {
+    flex-wrap: nowrap;
 }
 
 .navbar-light .navbar-brand {
-    background-color: #24cac5;
-    font-weight: bold;
     font-family: 'Radley', serif;
     color: white;
     text-align: center;
@@ -28,6 +25,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     margin: 0;
     padding-left: .75rem;
     padding-right: .75rem;
+    text-shadow: 3rem black;
 }
 
 
@@ -73,13 +71,22 @@ a .img-thumbnail:hover {
     opacity: 0.5;
 }
 
-#portImg > div {
+/* #portImg > div {
     margin-bottom: 1rem;
 }
 
 #portImg > div > p {
     margin: 0;
     text-align: center;
+} */
+
+.projects-wrapper img {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.project-div:not(:last-of-type) {
+    margin-bottom: 3rem;
 }
 
 /* Hover effect for anchor tagged image in index */
@@ -94,11 +101,13 @@ a #aboutImg:hover {
     background-color: #24cac5;
 }
 
-/* Allows the footer to stick */
-.fixed-bottom {
-    position: sticky;
+.group-projects {
+    margin-top: 3rem;
 }
 
+.projects-wrapper h2 {
+    margin-bottom: 2rem;
+}
 
 /* 
     MEDIA QUERIES 

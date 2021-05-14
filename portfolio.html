@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Page</title>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <!-- External CSS stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -17,15 +18,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Radley&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-    
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary nowrap sticky-top">
+        <div class="container-fluid p-0">
             <!-- Branding -->
-            <a class="navbar-brand" href="index.html">John Hinojosa</a>
+            <a class="navbar-brand fw-bold" href="index.html">John Hinojosa</a>
             <!-- Button for small viewport -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -44,68 +46,77 @@
         </div>
     </nav>
 
-        <section class="container-sm">
-            <div class="row">
-                <div class="col">
-                    <h1>Portfolio</h1>
-                    <hr>
-                </div>
+    <section class="container-sm">
+        <div class="row">
+            <div class="col">
+                <h1>Portfolio</h1>
+                <hr>
             </div>
-        
-            <!-- Images -->
-            <div class="row" id="portImg">
-                <div class="col-12 col-lg-6">
+        </div>
+
+        <!-- Projects -->
+        <div class="container projects-wrapper text-center">
+            <div class="row individual-projects">
+                <h2>Individual Projects</h2>
+                <div class="col-12 col-lg-6 project-div">
                     <p class="project-title">Semantic Code Refactor</p>
                     <a href="https://takolad.github.io/hw1-semantic_code_refactor/" target="_blank">
-                        <img src="https://raw.githubusercontent.com/takolad/hw1-semantic_code_refactor/main/assets/images/site_screenshot.png" alt="1st homework assignment about Semantic HTML Refactor" class="img-thumbnail">
+                        <img src="https://raw.githubusercontent.com/takolad/hw1-semantic_code_refactor/main/assets/images/site_screenshot.png"
+                            alt="1st homework assignment about Semantic HTML Refactor" class="img-thumbnail">
                     </a>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 project-div">
                     <p class="project-title">Password Generator</p>
                     <a href="https://takolad.github.io/Password-Generator/" target="_blank">
-                        <img src="https://raw.githubusercontent.com/takolad/Password-Generator/main/Assets/03-javascript-homework-demo.png" 
+                        <img src="https://raw.githubusercontent.com/takolad/Password-Generator/main/Assets/03-javascript-homework-demo.png"
                             alt="Password Generator using JavaScript" class="img-thumbnail">
                     </a>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 project-div">
                     <p class="project-title">JavaScript Code Quiz</p>
                     <a href="https://takolad.github.io/hw4-code_quiz/" target="_blank">
-                        <img src="https://raw.githubusercontent.com/takolad/hw4-code_quiz/main/assets/images/index_q.png" 
+                        <img src="https://raw.githubusercontent.com/takolad/hw4-code_quiz/main/assets/images/index_q.png"
                             alt="4th homework assignment - Code Quiz with JavaScript" class="img-thumbnail">
                     </a>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 project-div">
                     <p class="project-title">Work Day Scheduler</p>
                     <a href="https://takolad.github.io/Work_Day_Scheduler/" target="_blank">
-                        <img src="https://raw.githubusercontent.com/takolad/Work_Day_Scheduler/main/assets/images/schedule_img1.png" 
+                        <img src="https://raw.githubusercontent.com/takolad/Work_Day_Scheduler/main/assets/images/schedule_img1.png"
                             alt="5th homework assignment - Work Day Scheduler" class="img-thumbnail">
                     </a>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 project-div">
                     <p class="project-title">Weather Dashboard</p>
                     <a href="https://takolad.github.io/weather_dashboard/" target="_blank">
-                        <img src="https://raw.githubusercontent.com/takolad/weather_dashboard/main/assets/images/screen1.png" 
+                        <img src="https://raw.githubusercontent.com/takolad/weather_dashboard/main/assets/images/screen1.png"
                             alt="6th homework assignment - Weather Dashboard" class="img-thumbnail">
                     </a>
                 </div>
-                <div class="col-12 col-lg-6">
+            </div>
+            <div class="row group-projects">
+                <h2>Group Projects</h2>
+                <div class="col-12 col-lg-6 project-div">
                     <p class="project-title group-project">Group Project 1: Small Business Geocoding</p>
                     <a href="https://takolad.github.io/small-business-geocoding/" target="_blank">
-                        <img src="assets/images/project1-img.png" 
-                            alt="1st Group Project - Small Business Geocoding" class="img-thumbnail">
+                        <img src="assets/images/project1-img.png" alt="1st Group Project - Small Business Geocoding"
+                            class="img-thumbnail">
                     </a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
 
     <footer class="footer py-3 mt-auto fixed-bottom text-center bg-dark">
         <div class="container">
-          <span class="text-muted">&copy; Copyright 2021 John Hinojosa</span>
+            <span class="text-muted">&copy; Copyright 2021 John Hinojosa</span>
         </div>
-      </footer>
+    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
