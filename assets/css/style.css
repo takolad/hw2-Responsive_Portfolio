@@ -111,6 +111,11 @@ a #aboutImg:hover {
     margin-bottom: 2rem;
 }
 
+/* align inside of parent padding  */
+.port-header {
+    right: 12px;
+}
+
 /* 
     MEDIA QUERIES 
                   */
