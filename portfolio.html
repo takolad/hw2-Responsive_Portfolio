@@ -48,15 +48,18 @@
 
     <section class="container-sm">
         <div class="row">
-            <div class="col">
-                <h1>Portfolio</h1>
+            <div class="col position-relative">
+                <h1 class="d-inline-block">Portfolio</h1>
+                <span class="port-header position-absolute end-0">
+                    <a href="#group-proj">Group Projects</a>
+                </span>
                 <hr>
             </div>
         </div>
 
         <!-- Projects -->
-        <div class="container projects-wrapper text-center">
-            <div class="row individual-projects">
+        <div class="container projects-wrapper text-center mb-4">
+            <div class="row individual-projects" id="solo-proj">
                 <h2>Individual Projects</h2>
                 <div class="col-12 col-lg-6 project-div">
                     <p class="project-title">Semantic Code Refactor</p>
@@ -97,9 +100,16 @@
             <div class="row group-projects">
                 <h2>Group Projects</h2>
                 <div class="col-12 col-lg-6 project-div">
-                    <p class="project-title group-project">Group Project 1: Small Business Geocoding</p>
+                    <p class="project-title group-project" id="group-proj">Group Project 1: Small Business Geocoding</p>
                     <a href="https://takolad.github.io/small-business-geocoding/" target="_blank">
                         <img src="assets/images/project1-img.png" alt="1st Group Project - Small Business Geocoding"
+                            class="img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-12 col-lg-6 project-div">
+                    <p class="project-title group-project" id="group-proj">Group Project 2: Patient Tracker</p>
+                    <a href="https://salty-depths-31330.herokuapp.com/" target="_blank">
+                        <img src="assets/images/project2-img.png" alt="2nd Group Project - Patient Tracker"
                             class="img-thumbnail">
                     </a>
                 </div>
