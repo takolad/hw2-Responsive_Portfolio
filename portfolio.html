@@ -199,6 +199,31 @@
         </div>
         </div>
     </div>
+    <!-- 8 -->
+    <div class="modal fade" id="techBlog" tabindex="-1" aria-labelledby="techBlogLabel" aria-hidden="true" role="dialog">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="techBlogLabel">Tech Blog</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="description">A CMS-style blog site for developers to blog posts and comment  
+                    on other developers' posts. The app will follow the MVC paradigm  
+                    in structure using Handlebars.js for templating, Sequelize as ORM,  
+                    and express-session for authentication.
+                </p>
+                <div class="projectLinks d-flex justify-content-evenly">
+                    <a class="linkSite" href="https://lit-castle-83748.herokuapp.com/" target="_blank" rel="noopener noreferrer">View Site</a>
+                    <a class="linkRepo" href="https://github.com/takolad/tech-blog" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
 
     
     <!-- Navbar -->
@@ -277,6 +302,13 @@
                             alt="Weather Dashboard" class="img-thumbnail">
                     </a>
                 </div>
+                <div class="col-12 col-lg-6 project-div">
+                    <p class="project-title">Tech Blog</p>
+                    <a data-bs-toggle="modal" href="#techBlog" class="button d-inline-block" data-bs-target="#techBlog">
+                        <img src="./assets/images/techBlog-img.png"
+                            alt="Tech Blog" class="img-thumbnail">
+                    </a>
+                </div>
             </div>
             <div class="row group-projects">
                 <h2>Group Projects</h2>
@@ -308,7 +340,7 @@
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous">
     </script>
-    <script src="/assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
